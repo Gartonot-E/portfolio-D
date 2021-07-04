@@ -1,0 +1,12 @@
+section.gallery h2 { margin: 70px 0 65px 0; color: #fff; font-size: 40px; font-family: "Montserrat-B"; font-weight: 700; }
+.card-item header { width: 340px; height: 340px; overflow: hidden; }
+.card-item header img { width: 100%; height: 100%; object-fit: cover; }
+section.gallery .card-list { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; }
+section.gallery .card-item { margin-bottom: 20px; }
+section.gallery .card-item footer,
+section.gallery .card-item footer .like { display: flex; align-items: center; color: #888; }
+section.gallery .card-item footer .like { cursor: pointer; }
+section.gallery .card-item footer { justify-content: space-between; margin-top: 12px; }
+section.gallery .card-item footer .like span { margin-left: 15px; }
+
+@media (max-width: 850px) { section.gallery .card-list { justify-content: center; } }

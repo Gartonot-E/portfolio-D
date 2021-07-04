@@ -1,0 +1,11 @@
+.row {
+    display: flex;
+}
+
+.col-md-4 {
+    width: calc(100%/3);
+}
+
+.col-md-6 {
+    width: calc(100%/2);
+}

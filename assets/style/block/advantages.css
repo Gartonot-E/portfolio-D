@@ -1,0 +1,32 @@
+section.advantages {
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
+
+.advantages .wrap {
+    text-align: center;
+    padding: 10px;
+}
+
+.advantages .wrap p.title {
+    font-size: 25px;
+    font-family: "Montserrat-B";
+    font-weight: 700;
+    color: #c4c4c4;
+    margin: 16px 0 8px 0;
+}
+
+.advantages .wrap p.text {
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #fff;
+}
+
+@media (max-width: 1250px){
+    section.advantages { margin-top: 0; }
+}
+
+@media (max-width: 700px) {
+    .advantages .row { flex-direction: column; }
+    .advantages .row .col-md-4 { width: 100%; justify-content: center; margin-bottom: 50px; }
+}

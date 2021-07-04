@@ -1,0 +1,14 @@
+/* Fonts */
+@import url('../../assets/style/block/fonts.css');
+
+/* Base style */
+@import url('block/base.css');
+
+/* Left-bar style */
+@import url('block/left-bar.css');
+
+/* Gallery style */
+@import url('../../assets/style/block/gallery.css');
+
+/* Main-area style */
+@import url('block/main-area.css');

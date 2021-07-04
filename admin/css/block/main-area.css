@@ -1,0 +1,101 @@
+section.gallery h2 { 
+    color: #333; 
+    font-size: 24px; 
+    margin: 30px 0;
+}
+
+section.gallery .card-list {
+    margin-top: 30px;;
+}
+
+.card-item header {
+    max-width: 140px;
+    max-height: 140px;
+    min-height: 140px;
+    overflow: hidden;
+}
+
+section.gallery .card-item { 
+    border: 1px dotted #333; 
+    padding: 10px; 
+    transition: background .3s ease; 
+}
+
+section.gallery .card-item:hover { background:burlywood; }
+section.gallery .card-item footer { font-size: 12px; }
+section.gallery .card-item footer .like span { margin-left: 5px; }
+
+.delete-btn {
+    font-size: 30px; 
+    display: flex; 
+    transform: rotate(45deg); 
+    background: #fff;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 0 10px 36%;
+    color: red;
+}
+
+/* Form */
+
+main.main-area form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+main.main-area label {
+    display: flex;
+    flex-direction: column;
+    border: 1px dotted #333;
+    align-items: center;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+main.main-area label span {
+    margin-bottom: 10px;
+}
+
+main.main-area input.submit {
+    padding: 10px 0;
+    background: rgb(28, 189, 127);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    box-shadow: 0px 5px 0 rgb(18, 119, 80);
+    cursor: pointer;
+}
+
+.static {
+    display: flex;
+}
+
+.static .card-item {
+    background: #040e20;
+    width: 200px;
+    border-radius: 8px;
+    padding: 20px;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.static .card-item p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.static .card-item p span { font-size: 30px; }

@@ -1,0 +1,4 @@
+* { margin: 0; padding: 0; }
+.admin-panel { width: 100%; display: flex; font-family: 'Montserrat'; }
+main.main-area { width: 100%; height: 100vh; background: rgb(248, 248, 248); padding: 50px; box-sizing: border-box; overflow-y: auto; }
+hr { opacity: .3; margin: 20px 0; }

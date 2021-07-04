@@ -1,0 +1,115 @@
+section.about {
+    background: #212121;
+    position: relative;
+    margin-top: 90px;
+    min-height: 700px;
+}
+
+section.about .img__left {
+    width: calc(100%/2);
+    text-align: center;
+}
+
+section.about .img__left img {
+    width: 454px;
+    height: 713px;
+    border-radius: 16px;
+    margin-top: -80px;
+}
+
+section.about .info__right {
+    width: calc(100%/2);
+    text-align: left;
+}
+
+.info__right .info__header {
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    background: linear-gradient(45deg, #F81F01, #EE076E);
+    display: table;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+
+.info__right h2 {
+    font-size: 32px;
+    color: #fff;
+    font-family: "Montserrat-B";
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 48px;
+    line-height: 39px;
+    letter-spacing: 0.105em;
+    width: 60%;
+}
+
+.info__right .info__text {
+    color: #aaa;
+    margin-top: 25px;
+    line-height: 22px;
+    letter-spacing: 0.065em;
+}
+
+.info__right .row .about__expirience {
+    margin-top: 52px;
+    margin-right: 80px;
+    width: calc(100%/4);
+    border-top: 2px solid transparent;
+    border-image: linear-gradient(45deg, #F81F01, #EE076E) 20;
+    padding-top: 20px;
+}
+
+.about__expirience p.text-mini {
+    font-size: 20px;
+    background: linear-gradient(45deg, #F81F01, #EE076E);
+    display: table;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+
+.about__expirience .expirience-digits {
+    font-size: 44px;
+    font-family:"Montserrat-BL";
+    font-weight: 900;
+    background: linear-gradient(45deg, #F81F01, #EE076E);
+    display: table;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+
+@media (max-width: 1250px) {
+    section.about .info__right { margin-left: 70px; }
+}
+
+@media (max-width: 1024px) {
+    .about .container > .row { flex-direction: column; }
+    section.about .info__right { margin: 0; padding-bottom: 70px; }
+    section.about .img__left,
+    section.about .info__right { width: 100%; }
+    .info__right .info__header { margin: 60px auto; }
+    .info__right h2,
+    .info__right .info__text { text-align: center; width: 100%; }
+    .info__right .row { justify-content:  space-between;}
+    .about__expirience { margin: 52px 0 0 0 !important; }
+}
+
+@media (max-width: 600px) {
+    section.about .img__left img {
+        width: 350px;
+        height: 610px;
+    }
+    .info__right .row { justify-content: space-around; }
+}
+
+@media (max-width: 430px) {
+    section.about .img__left img {
+        width: 250px;
+        height: 400px;
+    }
+    .about__expirience .expirience-digits { font-size: 36px; }
+    .about__expirience p.text-mini { font-size: 18px; }
+}

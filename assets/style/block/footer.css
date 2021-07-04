@@ -1,0 +1,17 @@
+footer.footer { padding: 32px 0 35px 0; }
+footer.footer .container,
+footer.footer .container ul.soc-links { display: flex; align-items: center; }
+footer.footer .container ul.soc-links { margin-left: auto; }
+footer.footer .container ul.soc-links li:not(:first-child) { margin-left: 40px; }
+footer.footer .container p { font-family: "Montserrat-B"; font-weight: 700; color: #BCBCBC;}
+
+@media (max-width: 470px) {
+    footer.footer .container {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    footer.footer .container ul.soc-links { margin: 0; }
+}

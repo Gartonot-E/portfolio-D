@@ -1,0 +1,13 @@
+.btn {
+    background: linear-gradient(45deg, #F81F01, #EE076E);
+    display: inline-block;
+    padding: 16px 24px;
+    text-transform: uppercase;
+    font-family: 'Montserrat-M';
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.btn:hover {
+    opacity: .8;
+}

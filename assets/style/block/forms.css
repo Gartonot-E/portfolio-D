@@ -1,0 +1,55 @@
+section.forms {
+    background: #212121;
+    padding: 57px 0;
+}
+section.forms .row { gap: 30px; }
+
+section.forms h2 {
+    font-family: "Montserrat-B";
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+}
+
+section.forms p {
+    color: #c4c4c4;
+    font-size: 22px;
+    width: 70%;
+}
+
+section.forms form .row { align-items: center; justify-content: center; }
+section.forms form { margin-top: 54px; }
+
+section.forms form .form-control {
+    padding: 14px 26px;
+    border: 1px solid #C4C4C4;
+    background: transparent;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 45px;
+    color: #fff;
+    font-size: 16px;
+}
+
+section.forms form input[type="submit"] {
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+    margin: 0;
+}
+section.forms form input[type="file"] { margin: 0; border: dotted 2px #c4c4c4;} 
+section.forms form textarea { width: 100% !important; box-sizing: border-box;}
+
+section.forms .row .col-md-6 img {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 900px) { 
+    section.forms .container .row { flex-direction: column; }
+    section.forms .container .row .col-md-6 { width: 100% !important; }
+    section.forms form .form-control { width: 90%; }
+}

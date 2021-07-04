@@ -1,0 +1,28 @@
+aside.left-panel {
+    width: 25%;
+    height: 100vh;
+    background: rgb(4, 14, 32);
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+aside.left-panel a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    display: block;
+    transition: background .3s;
+    background: rgba(28, 189, 127, 0.3);
+}
+
+aside.left-panel a:hover, 
+aside.left-panel a.active {
+    background: rgb(28, 189, 127);
+}
+
+aside.left-panel nav ul li {
+    margin-bottom: 20px;
+    width: 100%;
+}

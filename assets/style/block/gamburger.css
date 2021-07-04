@@ -1,0 +1,35 @@
+.gamburger { 
+    padding: 30px 10px;
+    display: none;
+}
+
+.gamburger .line {
+    width: 50px;
+    height: 3px;
+    display: block;
+    background: #fff;
+    border-radius: 6px;
+}
+
+.gamburger .line::before,
+.gamburger .line::after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    display: block;
+    background: #fff;
+    border-radius: 6px;
+    position: relative;
+    transition: .3s;
+}
+
+.gamburger .line::after { top: 10px; }
+.gamburger .line::before { top: -13px; }
+
+.gamburger.active .line { background: transparent; }
+.gamburger.active .line::after { transform: rotate(405deg); top: -2px;}
+.gamburger.active .line::before { transform: rotate(-405deg); top: 0;}
+
+@media (max-width: 1050px) {
+    .gamburger { display: block; }
+}

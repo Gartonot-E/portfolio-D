@@ -1,0 +1,29 @@
+/* Fonts */
+@import url('block/fonts.css');
+
+/* Base style */
+@import url('block/base.css');
+@import url('block/cs_bootstrap.css');
+@import url('block/button.css');
+
+/* Header style */
+@import url('block/header.css');
+@import url('block/gamburger.css');
+
+/* Offer style */
+@import url('block/offer.css');
+
+/* Advantages style */
+@import url('block/advantages.css');
+
+/* About me style */
+@import url('block/about.css');
+
+/* Gallery style */
+@import url('block/gallery.css');
+
+/* Forms style */
+@import url('block/forms.css');
+
+/* Footer style */
+@import url('block/footer.css');

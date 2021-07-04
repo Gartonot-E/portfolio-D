@@ -1,0 +1,113 @@
+.offer {
+    overflow: hidden; 
+    padding: 100px 0 70px 0;
+}
+
+.offer .container {
+    background: #1c1c1c;
+    display: flex;
+}
+
+.offer .offer__text {  
+    width: 60%;
+    padding-left: 50px;
+}
+
+.offer .offer__text p {
+    font-size: 24px;
+    color: #c4c4c4;
+    margin: 20px 0;
+    width: 80%;
+}
+
+.offer h1 {
+    background: linear-gradient(45deg, #F81F01, #EE076E);
+    display: table;
+    font-size: 120px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Montserrat-BL";
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.offer .offer__img { 
+    width: 40%;
+    position: relative;
+}
+
+.offer .offer__img .img__slide li:nth-child(1) img {
+    position: absolute;
+    top: -35px;
+    right: -50px;
+    width: 300px;
+    z-index: 1;
+    opacity: 1;
+    transition: .3s;
+    animation: girl 1s;
+}
+.offer .offer__img .img__slide li:nth-child(1) img:hover { z-index: 4; }
+@keyframes girl { 0% { right: -400px; top: -100px; opacity: 0; } }
+
+.offer .offer__img .img__slide li:nth-child(2) img {
+    position: absolute;
+    bottom: -50px;
+    right: 130px;
+    width: 300px;
+    z-index: 2;
+    opacity: 1;
+    transition: .3s;
+    animation: wooman 1.5s;
+}
+.offer .offer__img .img__slide li:nth-child(2) img:hover { z-index: 4; }
+@keyframes wooman { 0% { bottom: 1000px; opacity: 0; } }
+
+
+.offer .offer__img .img__slide li:nth-child(3) img {
+    position: absolute;
+    bottom: 0;
+    right: -100px;
+    width: 270px;
+    z-index: 3;
+    opacity: 1;
+    transition: .3s;
+    animation: man 1.3s;
+}
+.offer .offer__img .img__slide li:nth-child(3) img:hover { z-index: 4; }
+@keyframes man { 0% {right: -600px; bottom: -200px} }
+
+
+@media (max-width: 1440px) {
+    .offer h1 { font-size: 100px; }
+}
+
+@media (max-width: 1250px) {
+    .offer__img { display: none; }
+    .offer .offer__text { 
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        align-items: center;
+    }
+    .offer h1, 
+    .offer .offer__text p { text-align: center; }
+}
+
+
+@media (max-width: 975px) {
+    .offer h1 { font-size: 90px; }
+    .offer .offer__text p { width: 100%; }
+}
+
+
+@media (max-width: 740px){
+    .offer h1 { font-size: 70px; }
+    .offer .offer__text p { font-size: 20px; }
+}
+
+
+@media (max-width: 530px) {
+    .offer h1 { font-size: 50px; }
+    .offer .offer__text { padding: 30px; }
+}
